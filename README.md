@@ -28,7 +28,7 @@ This repository is the template of the course. You work in your own copy:
 3. Check that everything is ready: `python3 doctor.py`.
 
 Behind? `python3 scripts/catchup.py --list` shows the tags of every section and practice lesson, and
-`python3 scripts/catchup.py c1-d3-start` puts your files where they are at that point. No access to Copilot cloud agent?
+`python3 scripts/catchup.py c1-s3-start` puts your files where they are at that point. No access to Copilot cloud agent?
 `artifacts/` has the session logs, plans and pull requests of the recorded runs.
 
 `data/demo/` is a seeded export of DemoSoft's incidents (`scripts/make_demo_data.py`); `mcp/incidentdesk_mcp.py` is the

@@ -1,10 +1,10 @@
 """Catch up with the course: put the files of your copy where they are at a tag of the course.
 
-Every section has a tag at its start and end (c1-d3-start, c1-d3-end), and every practice lesson a tag before and after
+Every section has a tag at its start and end (c1-s3-start, c1-s3-end), and every practice lesson a tag before and after
 it (c1-1-4-2-before). The tags live in the course's template repository, not in your copy.
 
     python3 scripts/catchup.py --list              # the tags you can catch up to
-    python3 scripts/catchup.py c1-d3-start         # files as at that tag
+    python3 scripts/catchup.py c1-s3-start         # files as at that tag
 
 It overwrites only files that the tag has; it never deletes a file. Every file of yours that it replaces and that
 differs is copied first to .backup/<time>/. Nothing is committed: review with git status, then commit and push.
